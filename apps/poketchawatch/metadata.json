@@ -1,11 +1,12 @@
 { "id": "poketchawatch",
   "name": "Pokétch Watch",
   "shortName":"App 1",
-  "icon": "watch-icon.png",
+  "icon": "app.png",
   "version":"0.01",
   "description": "A watch face designed after the Pokétch app",
   "type": "clock",
   "tags": "clock",
+  "supports" : ["BANGLEJS2"], 
   "storage": [
     {"name":"poketchawatch.app.js","url":"app.js"},
     {"name":"poketchawatch.img","url":"app-icon.js","evaluate":true}
